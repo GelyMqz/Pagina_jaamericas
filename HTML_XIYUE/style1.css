@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: #B43F3F;
+width: 100%;
+}
+
+a{
+    text-decoration:none ;
+}
+ /* A los selectores de etiqueta no le ponemos un punto al inicio */
+ /* Al selector de clase sí le ponemos un punto adelante, podemos repetir (en id no)*/
+header ul{
+    list-style: none; /* para quitar los puntitos */
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: #173B45;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-size: 25px;
+    color: #173B45;
+}
+
+.presentacion p{
+    width: 70%;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color: #F8EDED;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 50%;
+
+}
+.caja p{
+    font-size: 12px;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}

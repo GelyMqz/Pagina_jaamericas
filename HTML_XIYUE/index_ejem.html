@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ol es para listas numeradas-->
+<!-- La imagen tiene el atributo src y en las etiquetas tenemos href -->
+<!-- NAV: Es una etiqueta que utilizamos para crear un menú de navegación. Generalmente dentro del NAV ponemos una lista (ul) -->
+<!-- HEADER: se utilizan en HTML 5 para identificar el encabezado de la página Web. -->
+<!-- Footer. Se entiende por FOOTER a la etiqueta que utilizamos para incluir el pie de nuestra página. -->
+ <!--Iframe: Con la etiqueta IFRAME podemos incorporar fácilmente videos de YouTube y ubicaciones de Google maps-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Página nueva</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/logo.png" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <a href="https://www.junior.org.ar/"> <li>HOME</li> </a> 
+                <a href="#nosotros"> <li>NOSOTROS</li> </a>
+                <a href="https://junior.org.ar/inscripciones/"> <li>INSCRIPCIONES</li> </a>
+                <a href="https://junior.org.ar/novedades/"> <li>NOVEDADES</li> </a>
+                <a href="https://junior.org.ar/sumate/"> <li>SUMATE</li> </a>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="presentacion">
+        <h1>QUIÉNES SOMOS</h1>
+        <p> Somos una de las ONG más grandes del mundo. A través del aprendzaje activo en educación financiera, preparación para el trabajo y emprendiemiento, preparamos a los jovenes para que sean protagonista de su futuro. </p>
+
+    </div>
+
+    <div class="contenedor">
+        <div class="caja">
+        <img src="./imagenes/desafio.jpg" alt="imagen impacto">
+        <h1>EL DESAFÍO</h1>
+        <p> Insertos en la cuarta revolución industrial, la tecnología está presente en todos los ámbitos de la vida: aparecen la robótica, la biotecnología, la inteligencia artificial. Desaparecen profesiones y surgen nuevas.
+            Los jóvenes son especialmente vulnerables. En Argentina, la mitad de los jóvenes no termina el secundario, sólo 3 de cada 10 finaliza la universidad y el desempleo juvenil duplica el promedio nacional. A este contexto se suma un dato preocupante: el 52% de las empresas no encuentra los perfiles que necesita. </p>
+        </div>
+        
+        <div class="caja">
+            <img src="./imagenes/solucion.jpg" alt="imagen impacto">
+            <h1> LA SOLUCIÓN</h1>
+            <p> Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se sientan protagonistas y emprendedores de sus propias vidas. Todas nuestras iniciativas son un puente que conecta a los estudiantes con el mundo del trabajo. 
+                A través de programas presenciales y virtuales basados en la pedagogía de aprender haciendo, con sentido y por proyectos, los jóvenes desarrollan las competencias socioemocionales necesarias para el siglo XXI: pensamiento crítico, creatividad, comunicación, colaboración, iniciativa y liderazgo; con especial hincapié en la promoción de las carreras del futuro vinculadas a las STEM y las habilidades digitales.  </p>  
+        </div>
+        
+        <div class="caja">
+            <img src="./imagenes/impacto.jpg" alt="imagen impacto">
+        <h1>IMPACTO</h1>
+        <p>Trabajamos en cientos de escuelas cada año formando a miles de jóvenes para que estén mejor preparados para el futuro. </p>
+        </div>
+    </div>
+
+    <div class="container sm bg-dark ">
+        <h1> PLAN ESTRATÉGICO </h1>
+        <p class="text-white">
+        Para extender los beneficios de la cultura emprendedora, necesitamos crecer de manera exponencial. Por eso, a nivel global nos propusimos triplicar nuestro alcance para 2025. En Argentina, significa alcanzar 235.000 experiencias educativas por año, impacto que nos permitirá generar un cambio profundo y sostenido en la formación de los jóvenes de nuestro país.
+        </p>
+    </div>
+
+    <div class="container-fluid bg-success">
+        <h1> PROGRAMAS </h1>
+        <p class="text-body">
+        A través de programas presenciales y virtuales basados en la pedagogía de aprender haciendo, con sentido y por proyectos, los jóvenes desarrollan las competencias socioemocionales necesarias para el siglo XXI: pensamiento crítico, creatividad, comunicación, colaboración, iniciativa y liderazgo; con especial hincapié en la promoción de las carreras del futuro vinculadas a las STEM y las habilidades digitales.
+        Estamos haciendo un esfuerzo por transformar el contexto en una oportunidad. Para esto potenciamos nuestros programas digitales que nos permiten contar con opciones 100% online para estudiantes, docentes y escuelas. Además adaptamos nuestros programas habituales a propuestas blended y dinámicas que nos permitan seguir aprendiendo
+        </p>        
+    </div>
+
+    <!-- Esto de id suele ser sólo para botones así-->
+
+    <div id="nosotros">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d65106525.62442303!2d-127.2242002!3d-5.1379719!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33533433603c1%3A0x45810ad3a92f29c7!2sJunior%20Achievement%20Argentina!5e0!3m2!1sen!2smx!4v1723093648075!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/CAvju4e-EPk?si=akRw3Fww3nRov-mW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+<footer>
+    Conocé nuestra Política de privacidad | ©2022 Junior Achievement Argentina. Todos los derechos reservados.
+ </footer>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

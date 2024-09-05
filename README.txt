@@ -1,0 +1,3 @@
+- "HTML" contiene el contenido desarrollado durante los videos de Intro al Coding. Intenté hacerla un poco más parecida de lo que quedaba con los videos (como el header, el footer, las redes, etc.)
+
+-"HTML_XIYUE" contiene una página que estaba desarrollando por mi cuenta, no la terminé porque nos mencionaron que se entregaba la de Intro al Coding, la dejé porque está bonita, es de mi perrito, jeje.
